@@ -8,11 +8,20 @@ Sito di presentazione e privacy policy della beta locale di TuttoInTempo.
 
 ## Contenuti
 
-`index.html` presenta le categorie e le funzioni, indica che la beta Android è in preparazione e non pubblica collegamenti a un Play Store inesistente. L’illustrazione è una composizione grafica con dati di esempio, non una schermata dell’app.
+`index.html` presenta le categorie e le funzioni, indica che la beta Android è in preparazione e non pubblica collegamenti a un Play Store inesistente. La schermata nella cornice del telefono è una cattura reale della beta, acquisita con un profilo e una scadenza sintetici in un archivio di prova isolato. Non contiene dati dell’utente.
 
 `privacy.html` distingue gli archivi locali dell’app, le esportazioni volontarie e i dati tecnici del sito ospitato da GitHub. **Nome/ragione sociale del titolare e contatto privacy restano da confermare: finché compare l’avviso in sezione 1, il testo è provvisorio e non costituisce l’informativa definitiva per il lancio.**
 
-Pagine statiche senza dipendenze, moduli di raccolta, cookie o analisi aggiunti dal sito. Logo e illustrazioni sono risorse SVG locali. Non contiene sorgenti dell’app, APK, archivi personali o credenziali.
+Pagine statiche senza dipendenze di runtime, moduli di raccolta, cookie o analisi aggiunti dal sito. Logo, immagini, icone e caratteri sono risorse locali. Non contiene sorgenti dell’app, APK, archivi personali o credenziali.
+
+## Grafica
+
+La revisione applica [Emil Kowalski](https://github.com/emilkowalski/skills), [Impeccable](https://github.com/pbakaus/impeccable) e [Taste](https://github.com/Leonxlnx/taste-skill) come evoluzione dell’identità esistente. Le decisioni e i limiti della revisione sono descritti in [DESIGN-NOTES.md](DESIGN-NOTES.md).
+
+- Lora e DM Sans sono ospitati in `assets/fonts/`, con licenze SIL OFL incluse. Il browser del visitatore non contatta Google Fonts.
+- Le icone derivano dalla famiglia outline di [Tabler Icons](https://github.com/tabler/tabler-icons); la licenza MIT è in `assets/tabler-LICENSE.txt`.
+- `assets/app-preview.png` è una cattura dell’anteprima dell’app, con dati di esempio, prodotta l’8 ottobre 2026. Il file non è un’app funzionante incorporata nella pagina.
+- Tema scuro automatico, preferenza di movimento ridotto, focus da tastiera e indice privacy espandibile su telefono.
 
 ## Pubblicazione
 
